@@ -1,0 +1,29 @@
+.menu {width: 600px; height: 30px; background: rgba(0,0,0,.5);  border: 2px groove orange; border-radius: 5px; z-index: 1;
+       transition: margin-top .5s, background 1s; margin-top: -37px; position: absolute;}
+.pest {width: 35px; height: 29px; position: absolute; margin-top: 33px;  background: rgba(0,0,0,.5); margin-left: -2px; text-align: center;
+	   border-radius: 5px; color: white; border: 2px groove orange;}
+
+.menu:hover {margin-top: -2px; background: rgba(0,0,0,1)}
+
+html {padding: 0px;}
+
+.comando {width: 725px; height: 29px; position: absolute; top: 6px; left: 48px; background: green; border-radius: 5px; border: 2px groove orange;
+         z-index: -1;}
+.comando2 {width: 160px; height: 29px; position: absolute; top: 6px; left: 818px; background: green; border-radius: 5px; border: 2px groove orange;
+         z-index: -1;}
+
+.formulaM {width: 200px; height: 30px; background: rgba(0,0,0,1);  border: 2px groove orange; border-radius: 5px; z-index: 2;
+       transition: margin-top .5s; margin-top: -37px; left: 613px; position: absolute;}
+
+.formulaB {width: 35px; height: 29px; position: absolute; margin-top: 33px;  left: 165px; background: rgba(0,0,0,1); margin-left: -2px; text-align: center;
+	   border-radius: 5px; color: white; border: 2px groove orange;}
+
+.formulaM:hover {margin-top: -2px;}
+
+.loginM {width: 200px; height: 30px; background: rgba(0,0,0,1);  border: 2px groove orange; border-radius: 5px; z-index: 10;
+       transition: margin-top .5s; margin-top: -37px; left: 818px; position: absolute;}
+
+.loginB {width: 35px; height: 29px; position: absolute; margin-top: 33px;  left: 165px; background: rgba(0,0,0,1); margin-left: -2px; text-align: center;
+	   border-radius: 5px; color: white; border: 2px groove orange;}
+
+.loginM:hover {margin-top: -2px;}
